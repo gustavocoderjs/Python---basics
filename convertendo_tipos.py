@@ -14,6 +14,9 @@ print (100 / 2)
 print (100 // 2)
 
 
+print(5//2)
+
+float("a")
 
   
 
