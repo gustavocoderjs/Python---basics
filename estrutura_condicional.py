@@ -19,4 +19,3 @@ else:
 numero = int(input("Digite um número: "))
 mensagem = "Par" if numero % 2 == 0 else "Ímpar" 
 print(mensagem) #Saída: Ímpar 
-
