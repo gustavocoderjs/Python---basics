@@ -16,7 +16,7 @@ if idade >= maior_idade:
 else:
     print("Usuário menor de idade, habilitação recusada")
 
-numero = 5 
+numero = int(input("Digite um número: "))
 mensagem = "Par" if numero % 2 == 0 else "Ímpar" 
 print(mensagem) #Saída: Ímpar 
 
