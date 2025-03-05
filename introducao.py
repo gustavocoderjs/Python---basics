@@ -11,4 +11,9 @@ print (False)
 
 print ("Python")
 
+print ("Aulas")
+
+print ("Curso")
+
 int()
+
