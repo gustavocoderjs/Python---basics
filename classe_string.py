@@ -26,6 +26,7 @@ print(meuNome[:9])
 print(meuNome[10:16])
 print(meuNome[:])
 print(meuNome[::-1])
+print(meuNome[2])
 
 
  
