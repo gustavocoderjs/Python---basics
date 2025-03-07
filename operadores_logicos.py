@@ -21,3 +21,8 @@ conta_especial_com_saldo = conta_especial and saldo >= saque
 expressao_dois = conta_especial_com_saldo or conta_especial_com_saldo
 print (expressao_dois)
 
+saldoVendendor = 500
+saldoComprador = 200
+
+operacaoSaque = saldoVendendor and saldoComprador >= 500 
+print(operacaoSaque)
