@@ -18,7 +18,6 @@ profissao = "programador"
 linguagem = "Go"
 
 print (f"Olá, me chamo {nome} e tenho {idade} anos de idade. Atualmente trabalho como {profissao} e estou matriculado no curso de {linguagem}")
- 
 
 meuNome = "Gustavo Cordeiro de Souza"
 print(meuNome[0])
