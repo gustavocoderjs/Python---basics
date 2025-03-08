@@ -20,3 +20,35 @@ esc.append("Alph")
 print(rgb)
 print(esc)
 
+letters = ['a', 'b', 'c', 'd', 'e']
+
+print(letters[2:5])
+
+lettersTwo = letters[2:5] = []
+print(lettersTwo)
+
+lettersThree = letters[:] = []
+print(lettersThree)
+
+print(len(letters))
+
+# How to create lists containing another lists 
+
+a = ['x', 'y', 'z']
+n = ['7', '8', '9']
+
+q = [a, n]
+print(q)
+
+print(q[1][2])
+
+print("Another concept:")
+
+# Fibonacci Series
+
+a, b = 0, 1
+while a < 10:
+    print(a)
+    a, b = b, a + b
+
+     
