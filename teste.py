@@ -13,7 +13,7 @@ for linha in matriz_numeros:
 
 mode = [ "list", "python", "esc"]
 
-dicts = { loteUm: a, b, c ; loteDois: f, g ,h }
+dicts = { "loteUm": a, b, c ; "loteDois": f, g ,h }
 
         
 
