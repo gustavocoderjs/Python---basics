@@ -11,4 +11,10 @@ for linha in matriz_numeros:
         print(coluna)
         
 
+mode = [ "list", "python", "esc"]
+
+dicts = { loteUm: a, b, c ; loteDois: f, g ,h }
+
+        
+
     
