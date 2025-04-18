@@ -16,5 +16,3 @@ mode = [ "list", "python", "esc"]
 dicts = { "loteUm": ["a", "b", "c" ], "loteDois": ["m", "n", "o"]}
 
 print (dicts["loteUm"])        
-
-    
