@@ -26,5 +26,23 @@ conjuntoB = {9, 0}
 
 print(conjuntoA.union(conjuntoB))
 
+print(conjuntoA.difference(conjuntoB))
+
+print(conjuntoA.symmetric_difference(conjuntoB))
+
+print(conjuntoA.issubset(conjuntoB))
+
+# .clear(): esvazia o conjunto 
+# .copy(): copia o conjunto 
+# .discard(): remove o valor informado do conjunto 
+# .pop(): remove o primeiro valor da frente 
+# .remove(): remove o valor informado 
+# len: tamanho do conjunto 
+# in: verifica se o elemento é um objeto e está dentro de um conjunto
+
+numeros = { 44, 55, 77 ,99 }
+
+print(99 in numeros) # True 
+
 
 
