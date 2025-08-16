@@ -1,4 +1,5 @@
 import requests
+import pprint
 
 api_key = "59b44a9d51d54f299ff143040252603"
 link_api = "http://api.weatherapi.com/v1/current.json"
@@ -12,8 +13,10 @@ params = {
 
 resposta = requests.get(link_api, params=params)
 
-print(resposta.status_code)
-print(resposta.content)
+
+if resposta.status_code == 200:
+    dados = resposta.json()
+    pprint.pprint(dados)
 
 # status code
 # 200 -> requisição bem-sucedida
