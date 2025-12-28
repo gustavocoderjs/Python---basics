@@ -1,56 +1,51 @@
-# 🐍 Repositório de Estudos em Python
+# Python — Estudos e Exemplos
 
-Este repositório tem como objetivo documentar meu **aprendizado e evolução na linguagem Python**, explorando desde conceitos básicos até tópicos avançados, **sem utilização de frameworks externos**.  
-A ideia é consolidar conhecimento por meio de exemplos práticos, exercícios e anotações organizadas.
+Repositório destinado a documentar o avanço dos estudos em Python: pequenos exemplos, exercícios e experimentos com bibliotecas web (FastAPI, Flask), estruturas de dados e conceitos de orientação a objetos.
 
----
+## Objetivo
+Registrar exemplos práticos e anotações para aprendizado contínuo em Python. Cada arquivo contém pequenos exercícios ou demonstrações de conceitos.
 
-## 📚 Objetivos
+## Estrutura do repositório
+- [api-hashtag.py](api-hashtag.py)
+- [classe_string.py](classe_string.py)
+- [convertendo_tipos.py](convertendo_tipos.py)
+- [entrada_saida.py](entrada_saida.py)
+- [estrutura_condicional.py](estrutura_condicional.py)
+- [estruturas_repeticao.py](estruturas_repeticao.py)
+- [fast_api.py](fast_api.py)
+- [first_dag.py](first_dag.py)
+- [flask-heranca.py](flask-heranca.py)
+- [funcoes.py](funcoes.py)
+- [heranca.py](heranca.py)
+- [introducao.py](introducao.py)
+- [list_comprehesion.py](list_comprehesion.py)
+- [list_comprehesion2.py](list_comprehesion2.py)
+- [lists.py](lists.py)
+- [np.py](np.py)
+- [operadores_associacao.py](operadores_associacao.py)
+- [operadores_atribuicao.py](operadores_atribuicao.py)
+- [operadores_comparacao.py](operadores_comparacao.py)
+- [operadores_identidade.py](operadores_identidade.py)
+- [operadores_logicos.py](operadores_logicos.py)
+- [polimorfismo.py](polimorfismo.py)
+- [set.py](set.py)
+- [sistema_bancario.py](sistema_bancario.py)
+- [test-api.py](test-api.py)
+- [teste.py](teste.py)
+- [variaveis_constantes.py](variaveis_constantes.py)
+- [README.md](README.md)
+- __pycache__/ (cache de execução)
 
-- Aprender e reforçar fundamentos da linguagem Python.
-- Praticar boas práticas de programação.
-- Explorar recursos nativos da linguagem e da biblioteca padrão.
-- Criar pequenos projetos e scripts para aplicar os conceitos estudados.
-- Documentar a jornada de aprendizado de forma clara e acessível.
+## Principais arquivos e símbolos
+- API de exemplo usando FastAPI:
+  - Aplicação FastAPI: [`fast_api.app`](fast_api.py)
+  - Dados de exemplo: [`fast_api.vendas`](fast_api.py)
+  - Endpoints: [`fast_api.home`](fast_api.py) e [`fast_api.pegar_venda`](fast_api.py)
+  - Arquivo: [fast_api.py](fast_api.py)
 
----
+Os demais arquivos contêm exercícios e demos de conceitos básicos (funções, classes, herança, listas, sets e operadores). Abrir cada arquivo para ver o conteúdo e o foco do exercício.
 
-## 🗂 Estrutura do Repositório
-repositórios gustavocoderjs
-│
-├── .venv                          # Ambiente virtual
-│   └── 042b895                    # Commit: Adicionado arquivo (.venv) - 4 months ago
-│
-├── __pycache__                    # Cache de compilação Python
-│
-├── venv/Lib/site-packages         # Pacotes instalados no ambiente virtual
-│
-├── README.md                      # Create README.md - 10 months ago
-│
-├── api-hashtag.py                 # Arquivo alterado: api-hastag.py - 4 months ago
-├── classe_string.py                # Alterações em classe_string.py - 9 months ago
-├── convertendo_tipos.py            # Última alteração: resto de divisão - 10 months ago
-├── entrada_saida.py                # Aula sobre print/input e separadores - 10 months ago
-├── estrutura_condicional.py        # Última alteração - 10 months ago
-├── estruturas_repeticao.py         # Adicionado arquivo de teste - 10 months ago
-├── fast_api.py                     # Adicionado arquivo: fast_api.py - 7 months ago
-├── first_dag.py                    # Arquivo first_dag.py adicionado - 8 months ago
-├── flask-heranca.py                # Adicionado arquivo: flask-heranca.py - 6 months ago
-├── funcoes.py                      # Arquivo funcoes.py incluído - 8 months ago
-├── heranca.py                      # Adicionado arquivo: heranca.py - 6 months ago
-├── introducao.py                   # Alteração em introd.py - 10 months ago
-├── list_comprehesion.py            # Arquivos adicionados: list comprehesion - 7 months ago
-├── list_comprehesion2.py           # Adicionado arquivos: list_comprehesion.py - 7 months ago
-├── lists.py                        # Adicionado exemplos em lists.py - 9 months ago
-├── np.py                           # Adicionado arquivos: np.py e test-api.py - 8 months ago
-├── operadores_associacao.py        # Arquivo salvo - 10 months ago
-├── operadores_atribuicao.py        # Aula sobre operadores de comparação - 10 months ago
-├── operadores_comparacao.py        # Alteração no arquivo - 10 months ago
-├── operadores_identidade.py        # Adicionado comentário - 10 months ago
-├── operadores_logicos.py           # Alteração em operadores_logicos.py - 9 months ago
-├── polimorfismo.py                 # Adicionado arquivo: polimosfismo.py - 6 months ago
-├── set.py                          # Complementado arquivo: set.py - 7 months ago
-├── sistema_bancario.py             # Adicionado arquivo: sistema_bancario.py - 7 months ago
-├── test-api.py                     # Adicionado arquivos: np.py e test-api.py - 8 months ago
-├── teste.py                        # Arquivo funcoes.py incluído - 8 months ago
-└── variaveis_constantes.py         # Aula sobre variáveis e constantes - 10 months ago
+## Como executar a API de exemplo (fast_api.py)
+1. Instalar dependências:
+```sh
+pip install fastapi uvicorn
